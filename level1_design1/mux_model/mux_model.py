@@ -12,9 +12,9 @@ def mux_model(sel,inp0, inp1, inp2, inp3, inp4, inp5, inp6, inp7, inp8, inp9, in
     elif sel == 3:
         y = inp3
     elif sel == 4:
-        y= inp4
+        y = inp4
     elif sel == 5:
-        y= inp5
+        y = inp5
     elif sel == 6:
         y = inp6
     elif sel == 7:
@@ -24,11 +24,11 @@ def mux_model(sel,inp0, inp1, inp2, inp3, inp4, inp5, inp6, inp7, inp8, inp9, in
     elif sel == 9:
         y= inp9
     elif sel == 10:
-        y= inp10
+        y = inp10
     elif sel == 11:
-        y= inp11
+        y = inp11
     elif sel == 12:
-        y= inp12
+        y = inp12
 	elif sel == 13:
         y = inp13
     elif sel == 14:
@@ -36,9 +36,9 @@ def mux_model(sel,inp0, inp1, inp2, inp3, inp4, inp5, inp6, inp7, inp8, inp9, in
     elif sel == 15:
         y = inp15
     elif sel == 16:
-        y= inp16
+        y = inp16
     elif sel == 17:
-        y= inp17
+        y = inp17
     elif sel == 18:
         y = inp18
     elif sel == 19:
@@ -46,13 +46,13 @@ def mux_model(sel,inp0, inp1, inp2, inp3, inp4, inp5, inp6, inp7, inp8, inp9, in
     elif sel == 20:
         y = inp20
     elif sel == 21:
-        y= inp21
+        y = inp21
     elif sel == 22:
-        y= inp22
+        y = inp22
     elif sel == 23:
-        y= inp23
+        y = inp23
     elif sel == 24:
-        y= inp24
+        y = inp24
 	elif sel == 25:
         y = inp25
     elif sel == 26:
@@ -60,14 +60,14 @@ def mux_model(sel,inp0, inp1, inp2, inp3, inp4, inp5, inp6, inp7, inp8, inp9, in
     elif sel == 27:
         y = inp27
     elif sel == 28:
-        y= inp28
+        y = inp28
     elif sel == 29:
-        y= inp29
+        y = inp29
     elif sel == 30:
         y = inp30
     elif sel == 31:
         y = inp31
     else:
-        y= 0
+        y = 0
     return y
 	
