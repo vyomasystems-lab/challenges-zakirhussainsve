@@ -61,8 +61,8 @@ def mux_model(sel,inp0, inp1, inp2, inp3, inp4, inp5, inp6, inp7, inp8, inp9, in
     y = inp28
   elif sel == 29:
     y = inp29
-  elif sel == 30:
-    y = inp30
+  #elif sel == 30:
+  #  y = inp30
   else:
     y = 0
   return y
