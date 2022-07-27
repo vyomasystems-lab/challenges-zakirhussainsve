@@ -1,5 +1,7 @@
 # See LICENSE.vyoma for details
+import random
 
+from mux_model import mux_model
 import cocotb
 from cocotb.triggers import Timer
 
