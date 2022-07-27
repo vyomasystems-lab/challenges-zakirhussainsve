@@ -47,8 +47,6 @@ async def test_mux(dut):
         inp30=random.randint(0, 3)
         sel=random.randint(0, 31)
         
-        
-        
         dut.inp0.value=inp0
         dut.inp1.value=inp1
         dut.inp2.value=inp2
@@ -86,7 +84,7 @@ async def test_mux(dut):
 
         await Timer(2, units="ns")
 
-        if(dut.out.value == mux_model(sel,inp0, inp1, inp2, inp3, inp4, inp5, inp6, inp7, inp8, inp9, inp10, inp11, inp12, inp13, inp13, inp14, inp15, inp16, inp17,inp18, inp19, inp20, inp21, inp22, inp23, inp24, inp25, inp26,inp27, inp28, inp29, inp30)):
+        if(dut.out.value == mux_model(sel,inp0, inp1, inp2, inp3, inp4, inp5, inp6, inp7, inp8, inp9, inp10, inp11, inp12, inp13, inp14, inp15, inp16, inp17,inp18, inp19, inp20, inp21, inp22, inp23, inp24, inp25, inp26,inp27, inp28, inp29, inp30)):
             print("success")
         else:
             print("Fail")
