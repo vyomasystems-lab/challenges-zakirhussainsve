@@ -11,7 +11,7 @@ async def test_mux(dut):
 
     cocotb.log.info('##### CTB: Develop your test here ########')
 
-    for i in range(5):
+    for i in range(32):
 
         
         inp0=random.randint(0, 3)
