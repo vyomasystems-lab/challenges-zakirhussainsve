@@ -34,7 +34,7 @@ def run_test(dut):
         
     # comparison
         error_message = f'does not match MODEL'
-        assert dut_output == a*b, error_message
+        assert dut_output == a+b, error_message
 
     #//0x101010B3
 
